@@ -461,6 +461,7 @@ export default {
             console.log("preload");
             game.backgroundColor = "#EBEEEE";
             if (window.devicePixelRatio >= 1.5) {
+                console.log("there");
                 game.load.image('cofmPNG', 'assets/cofm.png');
                 game.load.image('p1m1m2', 'assets/p1m1m2latex@2x.png');
                 game.load.image('p1', 'assets/p1latex@2x.png');
@@ -472,6 +473,7 @@ export default {
                 game.load.image('v1', 'assets/v1latex@2x.png');
                 game.load.image('v2', 'assets/v2latex@2x.png');
             } else {
+                console.log("here");
                 game.load.image('cofmPNG', 'assets/cofm.png');
                 console.log("here");
                 game.load.image('p1m1m2', 'assets/p1m1m2latex.png');
